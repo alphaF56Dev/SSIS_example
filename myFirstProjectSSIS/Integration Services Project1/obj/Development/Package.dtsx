@@ -11,135 +11,11 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{0D64843E-BC0F-4509-885D-9EFD64C6FFA1}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{B0936899-A534-4091-92D3-055065314AE5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{C8688E8F-9CEA-4AB2-A87F-082BA6229972}"
-      DTS:ObjectName="Excel Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=E:\Desarrollo\SSIS\firstProject\Files\test.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{103335BB-8C44-43A0-80CC-F4D26B7E490E}"
-      DTS:ObjectName="Flat File Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="2058"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="E:\Desarrollo\SSIS\firstProject\Files\test.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="username"
-              DTS:DTSID="{DA9B91FC-0235-42D7-A0AE-2FD42498C3C3}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="control_number"
-              DTS:DTSID="{B862468B-9EF9-4F23-B765-840D0B508285}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="mail"
-              DTS:DTSID="{940C7020-79DC-41BC-88CB-96A246795507}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="rol"
-              DTS:DTSID="{10B636A1-A946-4C51-854F-59670C4731B4}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{F8D7D961-3CB6-4523-BE01-16DBC0735131}"
-      DTS:ObjectName="Flat File Connection Manager 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="2058"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="E:\Desarrollo\SSIS\firstProject\Files\test.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="username"
-              DTS:DTSID="{609CBE43-28F0-4810-A1DA-5AC3471B75F7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="control_number"
-              DTS:DTSID="{E3C67E83-0871-4BC0-A8C9-3EA8AF72FDCB}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="mail"
-              DTS:DTSID="{A9D6EBE8-4201-4BE0-B81F-3D282FD650A0}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="rol"
-              DTS:DTSID="{DB355E7D-FA00-40A3-870B-0CA77C8FCFE7}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-JEO7JF4H\SQLEXPRESS01.SSIS_TEST.AlexDev]"
       DTS:CreationName="OLEDB"
@@ -153,24 +29,61 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[test.xlsx]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{A7412715-8E36-40C1-8707-627889312575}"
-      DTS:ObjectName="test.xlsx">
+      DTS:refId="Package.ConnectionManagers[Users]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{FA657B18-BCC2-468E-9BE0-F7A638684BE1}"
+      DTS:ObjectName="Users">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[User::filePath]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:FileUsageType="1"
-          DTS:ConnectionString="E:\Desarrollo\SSIS\firstProject\Files\Proc\test.xlsx" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[test.xlsx 1]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{D91FECD6-2B76-41F0-A774-3FC0D80F92A9}"
-      DTS:ObjectName="test.xlsx 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="E:\Desarrollo\SSIS\firstProject\Files\test.xlsx" />
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="E:\Desarrollo\SSIS\firstProject\filesC\test.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="username"
+              DTS:DTSID="{175C9B3A-0463-470C-AEDE-61B84F6105EA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="control_number"
+              DTS:DTSID="{38FED9CA-BF4A-4978-A03C-E1F4B83E53CC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="mail"
+              DTS:DTSID="{66509533-D2CA-43A7-ABC6-D9EBDFB88826}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="rol"
+              DTS:DTSID="{76FDDD61-C288-4B68-93BC-452667429AB1}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -211,7 +124,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="filePath">
       <DTS:VariableValue
-        DTS:DataType="8">E:\Desarrollo\SSIS\firstProject\filesB\test.csv</DTS:VariableValue>
+        DTS:DataType="8">E:\Desarrollo\SSIS\firstProject\filesC\test.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -222,7 +135,18 @@
       DTS:Namespace="User"
       DTS:ObjectName="filePathDest">
       <DTS:VariableValue
-        DTS:DataType="8">E:\Desarrollo\SSIS\firstProject\filesB\Proc\test20230426.csv</DTS:VariableValue>
+        DTS:DataType="8">E:\Desarrollo\SSIS\firstProject\filesC\Proc\test20230426.csv</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{309D3A45-886A-4D0E-99B3-D83D7EE1FA7E}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[$Project::source_file] + &quot;\\test.csv&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="User_filename">
+      <DTS:VariableValue
+        DTS:DataType="8">E:\Desarrollo\SSIS\firstProject\filesC\test.csv</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -247,13 +171,13 @@
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\Contenedor de bucles Foreach\Tarea Ejecutar SQL"
+          DTS:refId="Package\Contenedor de bucles Foreach\CLEAN USERS_TEST"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
-          DTS:Description="Tarea Ejecutar SQL"
+          DTS:Description="CLEAN TABLE USERS_TEST"
           DTS:DTSID="{59C9CFD5-96ED-4D1A-874B-67465A8B28FB}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
-          DTS:ObjectName="Tarea Ejecutar SQL"
+          DTS:ObjectName="CLEAN USERS_TEST"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
           DTS:ThreadHint="0">
           <DTS:Variables />
@@ -264,13 +188,13 @@
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
-          DTS:refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos"
+          DTS:refId="Package\Contenedor de bucles Foreach\LOAD DATA"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Tarea Flujo de datos"
           DTS:DTSID="{F2821249-D777-4D48-8942-9F4BC9367755}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
-          DTS:ObjectName="Tarea Flujo de datos"
+          DTS:ObjectName="LOAD DATA"
           DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
           <DTS:ObjectData>
@@ -278,11 +202,11 @@
               version="1">
               <components>
                 <component
-                  refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB"
+                  refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY"
                   componentClassID="Microsoft.OLEDBDestination"
                   contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
                   description="Destino de OLE DB"
-                  name="Destino de OLE DB"
+                  name="DATA DESTINY"
                   usesDispositions="true"
                   version="4">
                   <properties>
@@ -335,7 +259,7 @@
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Connections[OleDbConnection]"
+                      refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Connections[OleDbConnection]"
                       connectionManagerID="Package.ConnectionManagers[LAPTOP-JEO7JF4H\SQLEXPRESS01.SSIS_TEST.AlexDev]"
                       connectionManagerRefId="Package.ConnectionManagers[LAPTOP-JEO7JF4H\SQLEXPRESS01.SSIS_TEST.AlexDev]"
                       description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
@@ -343,67 +267,67 @@
                   </connections>
                   <inputs>
                     <input
-                      refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+                      refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB]"
                       errorOrTruncationOperation="Insertar"
                       errorRowDisposition="FailComponent"
                       hasSideEffects="true"
                       name="Entrada de destino de OLE DB">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[username]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].Columns[username]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
                           cachedName="username"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[USERNAME]"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[username]" />
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[USERNAME]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[username]" />
                         <inputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[control_number]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].Columns[control_number]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
                           cachedName="control_number"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CONTROL_NUMBER]"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[control_number]" />
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[CONTROL_NUMBER]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[control_number]" />
                         <inputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[mail]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].Columns[mail]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
                           cachedName="mail"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[MAIL]"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[mail]" />
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[MAIL]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[mail]" />
                         <inputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[rol]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].Columns[rol]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
                           cachedName="rol"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[ROL]"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[rol]" />
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[ROL]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[rol]" />
                       </inputColumns>
                       <externalMetadataColumns
                         isUsed="True">
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[USERNAME]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[USERNAME]"
                           codePage="1252"
                           dataType="str"
                           length="10"
                           name="USERNAME" />
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[CONTROL_NUMBER]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[CONTROL_NUMBER]"
                           codePage="1252"
                           dataType="str"
                           length="10"
                           name="CONTROL_NUMBER" />
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[MAIL]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[MAIL]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="MAIL" />
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[ROL]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB].ExternalColumns[ROL]"
                           codePage="1252"
                           dataType="str"
                           length="15"
@@ -413,22 +337,22 @@
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB]"
+                      refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Outputs[Salida de error de destino de OLE DB]"
                       exclusionGroup="1"
                       isErrorOut="true"
                       name="Salida de error de destino de OLE DB"
-                      synchronousInputId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]">
+                      synchronousInputId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -437,12 +361,12 @@
                   </outputs>
                 </component>
                 <component
-                  refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano"
+                  refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA"
                   componentClassID="Microsoft.FlatFileSource"
                   contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
                   description="Origen de archivo plano"
                   localeId="2058"
-                  name="Origen de archivo plano"
+                  name="SOURCE ORIGIN DATA"
                   usesDispositions="true"
                   version="1">
                   <properties>
@@ -457,25 +381,25 @@
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Connections[FlatFileConnection]"
-                      connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
-                      connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                      refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Connections[FlatFileConnection]"
+                      connectionManagerID="Package.ConnectionManagers[Users]"
+                      connectionManagerRefId="Package.ConnectionManagers[Users]"
                       name="FlatFileConnection" />
                   </connections>
                   <outputs>
                     <output
-                      refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano]"
+                      refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano]"
                       name="Salida de origen de archivo plano">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[username]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[username]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[username]"
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[username]"
                           length="50"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[username]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[username]"
                           name="username"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -490,14 +414,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[control_number]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[control_number]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[control_number]"
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[control_number]"
                           length="50"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[control_number]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[control_number]"
                           name="control_number"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -512,14 +436,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[mail]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[mail]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[mail]"
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[mail]"
                           length="50"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[mail]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[mail]"
                           name="mail"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -534,14 +458,14 @@
                           </properties>
                         </outputColumn>
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[rol]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[rol]"
                           codePage="1252"
                           dataType="str"
                           errorOrTruncationOperation="Conversión"
                           errorRowDisposition="FailComponent"
-                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[rol]"
+                          externalMetadataColumnId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[rol]"
                           length="50"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[rol]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].Columns[rol]"
                           name="rol"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -559,25 +483,25 @@
                       <externalMetadataColumns
                         isUsed="True">
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[username]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[username]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="username" />
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[control_number]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[control_number]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="control_number" />
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[mail]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[mail]"
                           codePage="1252"
                           dataType="str"
                           length="50"
                           name="mail" />
                         <externalMetadataColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[rol]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano].ExternalColumns[rol]"
                           codePage="1252"
                           dataType="str"
                           length="50"
@@ -585,27 +509,27 @@
                       </externalMetadataColumns>
                     </output>
                     <output
-                      refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano]"
+                      refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano]"
                       isErrorOut="true"
                       name="Salida de error de origen de archivo plano">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
                           codePage="1252"
                           dataType="text"
                           description="Columna de salida de error de origen de archivo plano"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano].Columns[Columna de salida de error de origen de archivo plano]"
                           name="Columna de salida de error de origen de archivo plano" />
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                          refId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
+                          lineageId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de error de origen de archivo plano].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -616,12 +540,32 @@
               </components>
               <paths>
                 <path
-                  refId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-                  endId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+                  refId="Package\Contenedor de bucles Foreach\LOAD DATA.Paths[Salida de origen de archivo plano]"
+                  endId="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de origen de archivo plano"
-                  startId="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano]" />
+                  startId="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA.Outputs[Salida de origen de archivo plano]" />
               </paths>
             </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Contenedor de bucles Foreach\MOVE FILE PROCESSED"
+          DTS:CreationName="Microsoft.FileSystemTask"
+          DTS:Description="Tarea Sistema de archivos"
+          DTS:DTSID="{235BE96B-C0BA-48DD-AC94-EB0BD550A58C}"
+          DTS:ExecutableType="Microsoft.FileSystemTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="MOVE FILE PROCESSED"
+          DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <FileSystemData
+              TaskOverwriteDestFile="True"
+              TaskSourcePath="User::filePath"
+              TaskIsSourceVariable="True"
+              TaskDestinationPath="User::filePathDest"
+              TaskIsDestinationVariable="True" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -1242,26 +1186,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </ScriptProject>
           </DTS:ObjectData>
         </DTS:Executable>
-        <DTS:Executable
-          DTS:refId="Package\Contenedor de bucles Foreach\Tarea Sistema de archivos"
-          DTS:CreationName="Microsoft.FileSystemTask"
-          DTS:Description="Tarea Sistema de archivos"
-          DTS:DTSID="{235BE96B-C0BA-48DD-AC94-EB0BD550A58C}"
-          DTS:ExecutableType="Microsoft.FileSystemTask"
-          DTS:LocaleID="-1"
-          DTS:ObjectName="Tarea Sistema de archivos"
-          DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
-          <DTS:Variables />
-          <DTS:ObjectData>
-            <FileSystemData
-              TaskOverwriteDestFile="True"
-              TaskSourcePath="User::filePath"
-              TaskIsSourceVariable="True"
-              TaskDestinationPath="User::filePathDest"
-              TaskIsDestinationVariable="True" />
-          </DTS:ObjectData>
-        </DTS:Executable>
       </DTS:Executables>
       <DTS:PrecedenceConstraints>
         <DTS:PrecedenceConstraint
@@ -1271,33 +1195,41 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:From="Package\Contenedor de bucles Foreach\Tarea Script"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
-          DTS:To="Package\Contenedor de bucles Foreach\Tarea Ejecutar SQL" />
+          DTS:To="Package\Contenedor de bucles Foreach\CLEAN USERS_TEST" />
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Contenedor de bucles Foreach.PrecedenceConstraints[Constraint 1]"
           DTS:CreationName=""
           DTS:DTSID="{BAE00CAB-0053-4FDC-83CF-8D618545363F}"
-          DTS:From="Package\Contenedor de bucles Foreach\Tarea Ejecutar SQL"
+          DTS:From="Package\Contenedor de bucles Foreach\CLEAN USERS_TEST"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 1"
-          DTS:To="Package\Contenedor de bucles Foreach\Tarea Flujo de datos" />
+          DTS:To="Package\Contenedor de bucles Foreach\LOAD DATA" />
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Contenedor de bucles Foreach.PrecedenceConstraints[Constraint 2]"
           DTS:CreationName=""
           DTS:DTSID="{C986607D-4B57-4E60-AB3F-AD17D9905808}"
-          DTS:From="Package\Contenedor de bucles Foreach\Tarea Flujo de datos"
+          DTS:From="Package\Contenedor de bucles Foreach\LOAD DATA"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 2"
-          DTS:To="Package\Contenedor de bucles Foreach\Tarea Sistema de archivos" />
+          DTS:To="Package\Contenedor de bucles Foreach\MOVE FILE PROCESSED" />
       </DTS:PrecedenceConstraints>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{1546CE97-FF36-4F98-BF5D-B6B1A4058A5C}"
+          DTS:ObjectName="{1546CE97-FF36-4F98-BF5D-B6B1A4058A5C}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::filePath" />
+      </DTS:ForEachVariableMappings>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Tarea Script"
+      DTS:refId="Package\Validate file exist"
       DTS:CreationName="Microsoft.ScriptTask"
-      DTS:Description="Tarea Script"
+      DTS:Description="Validate if the file exist in path specified"
       DTS:DTSID="{E26EFD8F-3AC8-4A4D-BF36-4BC23E00FA3E}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tarea Script"
+      DTS:ObjectName="Validate file exist"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -1306,7 +1238,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           VSTAMajorVersion="16"
           VSTAMinorVersion="0"
           Language="CSharp"
+          ReadOnlyVariables="User::filePath,$Project::source_file"
           ReadWriteVariables="User::dataset,User::fileExist">
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1427,35 +1369,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_789b8231870d4affbb94b4cebbaeb3dc.Properties.Settings.get_Default():ST_789b8231870d4affbb94b4cebbaeb3dc.Properties.Sett" +
-    "ings")]
-
-namespace ST_789b8231870d4affbb94b4cebbaeb3dc.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -1543,13 +1456,13 @@ namespace ST_789b8231870d4affbb94b4cebbaeb3dc
         #endregion
 
 
-		/// <summary>
+        /// <summary>
         /// This method is called when this script task executes in the control flow.
         /// Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
         /// To open Help, press F1.
         /// </summary>
-		public void Main()
-		{
+        public void Main()
+        {
             // TODO: Add your code here
             DataRow[] rows;
 
@@ -1560,10 +1473,10 @@ namespace ST_789b8231870d4affbb94b4cebbaeb3dc
             dtFiles.Columns.Add("FileName", typeof(string));
             dtFiles.Columns.Add("LastUpdate", typeof(DateTime));
 
-            String[] allFiles = Directory.GetFiles(@"E:\Desarrollo\SSIS\firstProject\Files");
+            String[] allFiles = Directory.GetFiles(Dts.Variables["$Project::source_file"].Value.ToString());
             FileInfo fInfo;
 
-            foreach(String cFile in allFiles)
+            foreach (String cFile in allFiles)
             {
                 fInfo = new FileInfo(cFile);
                 dtFiles.Rows.Add(fInfo.FullName, fInfo.Name, fInfo.LastWriteTime);
@@ -1576,11 +1489,11 @@ namespace ST_789b8231870d4affbb94b4cebbaeb3dc
 
             dtFilesProc.Columns.Add("filePath", typeof(string));
 
-            foreach(DataRow row in rows)
+            foreach (DataRow row in rows)
             {
                 dtFilesProc.Rows.Add(row[0].ToString());
             }
-            Dts.Variables["User::fileExist"].Value = File.Exists(@"E:\Desarrollo\SSIS\firstProject\Files\test.csv");
+            Dts.Variables["User::fileExist"].Value = File.Exists(Dts.Variables["User::filePath"].Value.ToString());
 
             Dts.Variables["User::dataset"].Value = dsFilesProc;
 
@@ -1697,7 +1610,7 @@ namespace ST_789b8231870d4affbb94b4cebbaeb3dc
     <msb:CodeName>ST_789b8231870d4affbb94b4cebbaeb3dc</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_789b8231870d4affbb94b4cebbaeb3dc</msb:DisplayName>
-    <msb:ProjectId>{DCF72C30-2602-4F05-9801-2D658F9BA383}</msb:ProjectId>
+    <msb:ProjectId>{DEB2C519-DC8A-4C38-9238-B57C7CD05788}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_789b8231870d4affbb94b4cebbaeb3dc.csproj" />
@@ -1709,6 +1622,35 @@ namespace ST_789b8231870d4affbb94b4cebbaeb3dc
     <msb:File Include="ScriptMain.cs" />
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_789b8231870d4affbb94b4cebbaeb3dc.Properties.Settings.get_Default():ST_789b8231870d4affbb94b4cebbaeb3dc.Properties.Sett" +
+    "ings")]
+
+namespace ST_789b8231870d4affbb94b4cebbaeb3dc.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
@@ -1739,15 +1681,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1819,97 +1752,97 @@ namespace ST_789b8231870d4affbb94b4cebbaeb3dc.Properties {
           <BinaryItem
             Name="ST_789b8231870d4affbb94b4cebbaeb3dc.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAEoVN2QAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAjjIA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAGmSSWQAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAejIA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAADwyAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAACgyAABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAlBIAAAAgAAAAFAAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAgBIAAAAgAAAAFAAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABw
-MgAAAAAAAEgAAAACAAUAXCIAACgPAAABAAAAAAAAAIQxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAABMwBgCZAQAAAQAAEXMQAAAKCgZvEQAACm8SAAAKCwdvEwAA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABc
+MgAAAAAAAEgAAAACAAUAkCIAAOAOAAABAAAAAAAAAHAxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABMwBgDNAQAAAQAAEXMQAAAKCgZvEQAACm8SAAAKCwdvEwAA
 CnIBAABw0B4AAAEoFAAACm8VAAAKJgdvEwAACnITAABw0B4AAAEoFAAACm8VAAAKJgdvEwAACnIl
-AABw0CIAAAEoFAAACm8VAAAKJnI7AABwKBYAAAoTBRYTBitDEQURBppzFwAACgwHbxgAAAoZjRUA
-AAElFghvGQAACqIlFwhvGgAACqIlGAhvGwAACowiAAABom8cAAAKJhEGF1gTBhEGEQWOaTK1Bm8R
-AAAKFm8dAAAKcocAAHByuQAAcG8eAAAKcxAAAAoNCW8RAAAKbxIAAAoTBBEEbxMAAApy2QAAcNAe
-AAABKBQAAApvFQAACiYTBxYTBiswEQcRBpoTCBEEbxgAAAoXjRUAAAElFhEIFm8fAAAKbyAAAAqi
-bxwAAAomEQYXWBMGEQYRB45pMsgCKCEAAApvIgAACnLrAABwbyMAAApyCwEAcCgkAAAKjCoAAAFv
-JQAACgIoIQAACm8iAAAKcmkBAHBvIwAACglvJQAACgIoIQAAChZvJgAACioeAignAAAKKh4CKCgA
-AAoqrn4BAAAELR5yhQEAcNADAAACKBQAAApvKQAACnMqAAAKgAEAAAR+AQAABCoafgIAAAQqHgKA
-AgAABCoafgMAAAQqHgIoKwAACioucwgAAAaAAwAABCoAQlNKQgEAAQAAAAAADAAAAHY0LjAuMzAz
-MTkAAAAABQBsAAAAhAQAACN+AADwBAAAbAYAACNTdHJpbmdzAAAAAFwLAAD4AQAAI1VTAFQNAAAQ
-AAAAI0dVSUQAAABkDQAAxAEAACNCbG9iAAAAAAAAAAIAAAFXHaIBCQMAAAD6ATMAFgAAAQAAACsA
-AAAFAAAABgAAAAkAAAABAAAAKwAAAAIAAAAQAAAAAQAAAAIAAAADAAAABAAAAAEAAAAFAAAAAQAA
-AAEAAAAAAM8DAQAAAAAABgB/AgUFBgAOAwUFBgDLAfIEDwB5BQAABgD4AWAEBgBiAmAEBgBDAmAE
-BgD1AmAEBgCfAmAEBgC4AmAEBgAPAmAEBgAqAjwDCgDTAn4DCgBKAX4DDgAqBjsADgCIADsABgCt
-BAoADgBNBjsABgAHBAAEBgCuAfIEBgAcBgAEBgDVBCUFBgC2BEsEEgB+AbkDEgDfAbkDEgBmATYE
-BgCTAQUFDgByBDsADgCGBDsABgBYAwAEBgAVAQAEBgCbAAAEDgArBDsABgDaAAAEBgBiBgoADgCb
-BDsABgDCBAoACgCnA34DFgDGBfUAFgCSAPUABgC/AAoABgAYBAAEBgBZBmAEAAAAAAEAAAAAAAEA
-AQABABAAIARQADkAAQABAAAAEAAsBYgFVQABAAMAAAEQANkFiAVpAAMABwADAQAA/gUAAE0ABAAK
-ABEADATHABEAOgHLABEAeADPAAYGMwDTAFaA7gXWAFaAGgHWAFAgAAAAAIYAJgQGAAEA9SEAAAAA
-hhjlBAYAAQD9IQAAAACDGOUEBgABAAUiAAAAAJMI0QTaAAEAMSIAAAAAkwgiAd8AAQA4IgAAAACT
-CC4B5AABAEAiAAAAAJYIMgbqAAIARyIAAAAAhhjlBAYAAgBPIgAAAACRGOsE7wACAAAAAQA2AwkA
-5QQBABEA5QQGABkA5QQKACkA5QQQADEA5QQQADkA5QQQAEEA5QQQAEkA5QQQAFEA5QQQAFkA5QQQ
-AGEA5QQQAGkA5QQGAKEA5QQGAMkA5QQVANkA5QQGAHkA5QQGAHkAtwUwAOEAdAA1AIEA4gU6APkA
-rQA/AOkAdABHABkB0AVQAIkA5QQQAIEAEwZWACkBzQBcACkBxABcACkB4wBgACEBdABmAOEA9wNt
-AIEAIwZzAJEA9wN7AKkAVgNcAHEA9gWAADEBwgWGADkB9wOMAEkBDAaTAEEBLAOYADEBPgYBAHEA
-5QQGAKkA5QQGAPkAVQadALEA5QSjANEA5QQGAAgAFAC9AAgAGADCACkAcwAqAS4ACwACAS4AEwAL
-AS4AGwAqAS4AIwAzAS4AKwBcAS4AMwBcAS4AOwBcAS4AQwAzAS4ASwBiAS4AUwBcAS4AWwB5AUMA
-YwDCAEkAcwAqAWEAewDCAGMAawDCABsAAwABAAQAAwAAANUE8wAAAEIB+AAAADYG/QACAAQAAwAC
-AAUABQABAAYABQACAAcABwAEgAAAAQAAADYhNWYAAAAAAABQAAAABAAAAAAAAAAAAAAAqwBHAAAA
-AAAQAAAAAAAAAAAAAAC0AF8DAAAAAAQAAAAAAAAAAAAAAKsAOwAAAAAABAAAAAAAAAAAAAAAqwAA
-BAAAAAAQAAAAAAAAAAAAAAC0ABQAAAAAAAAAAAABAAAANgUAAAUAAgAAAAA8TW9kdWxlPgBTeXN0
-ZW0uSU8ATWljcm9zb2Z0LlNxbFNlcnZlci5NYW5hZ2VkRFRTAHZhbHVlX18AU3lzdGVtLkRhdGEA
-bXNjb3JsaWIAU1RfNzg5YjgyMzE4NzBkNGFmZmJiOTRiNGNlYmJhZWIzZGMAQWRkAGRlZmF1bHRJ
-bnN0YW5jZQBEYXRhVGFibGUAVmFyaWFibGUAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21I
-YW5kbGUARmlsZQBnZXRfTmFtZQBnZXRfRnVsbE5hbWUARGF0ZVRpbWUAZ2V0X0xhc3RXcml0ZVRp
-bWUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUnVudGltZQBUeXBlAEZhaWx1cmUAZ2V0X0N1bHR1
-cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0dXJlAFZTVEFSVFNjcmlwdE9iamVjdE1vZGVsQmFz
-ZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdl
-bmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVB
-dHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUA
-QXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2Vt
-Ymx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENv
-bXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFz
-c2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQb2ludEF0dHJpYnV0
-ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUA
-c2V0X1ZhbHVlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAVG9TdHJpbmcATWljcm9z
-b2Z0LlNxbFNlcnZlci5TY3JpcHRUYXNrAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlRhc2tzLlNj
-cmlwdFRhc2sAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFNUXzc4OWI4
-MjMxODcwZDRhZmZiYjk0YjRjZWJiYWViM2RjLmRsbABnZXRfSXRlbQBTeXN0ZW0ARW51bQByZXNv
-dXJjZU1hbgBCb29sZWFuAFNjcmlwdE1haW4ARGF0YUNvbHVtbgBTeXN0ZW0uQ29uZmlndXJhdGlv
-bgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0uUmVmbGVjdGlvbgBEYXRhVGFibGVDb2xsZWN0
-aW9uAERhdGFDb2x1bW5Db2xsZWN0aW9uAERhdGFSb3dDb2xsZWN0aW9uAEZpbGVJbmZvAEN1bHR1
-cmVJbmZvAEZpbGVTeXN0ZW1JbmZvAGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5
-c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5S
-ZXNvdXJjZXMAU1RfNzg5YjgyMzE4NzBkNGFmZmJiOTRiNGNlYmJhZWIzZGMuUHJvcGVydGllcy5S
-ZXNvdXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNUXzc4OWI4MjMxODcwZDRhZmZiYjk0
-YjRjZWJiYWViM2RjLlByb3BlcnRpZXMAZ2V0X1RhYmxlcwBnZXRfVmFyaWFibGVzAEdldEZpbGVz
-AFNldHRpbmdzAGdldF9Db2x1bW5zAFN1Y2Nlc3MAZ2V0X0R0cwBTY3JpcHRSZXN1bHRzAEV4aXN0
-cwBnZXRfUm93cwBPYmplY3QAU2VsZWN0AERhdGFTZXQAZ2V0X0RlZmF1bHQAc2V0X1Rhc2tSZXN1
-bHQARGF0YVJvdwBnZXRfQXNzZW1ibHkARGlyZWN0b3J5AAARRgBpAGwAZQBQAGEAdABoAAARRgBp
-AGwAZQBOAGEAbQBlAAAVTABhAHMAdABVAHAAZABhAHQAZQAAS0UAOgBcAEQAZQBzAGEAcgByAG8A
-bABsAG8AXABTAFMASQBTAFwAZgBpAHIAcwB0AFAAcgBvAGoAZQBjAHQAXABGAGkAbABlAHMAADFG
-AGkAbABlAE4AYQBtAGUAIABsAGkAawBlACAAJwB0AGUAcwB0AC4AYwBzAHYAJwABH0wAYQBzAHQA
-VQBwAGQAYQB0AGUAIABEAEUAUwBDAAARZgBpAGwAZQBQAGEAdABoAAAfVQBzAGUAcgA6ADoAZgBp
-AGwAZQBFAHgAaQBzAHQAAF1FADoAXABEAGUAcwBhAHIAcgBvAGwAbABvAFwAUwBTAEkAUwBcAGYA
-aQByAHMAdABQAHIAbwBqAGUAYwB0AFwARgBpAGwAZQBzAFwAdABlAHMAdAAuAGMAcwB2AAAbVQBz
-AGUAcgA6ADoAZABhAHQAYQBzAGUAdAAAcVMAVABfADcAOAA5AGIAOAAyADMAMQA4ADcAMABkADQA
-YQBmAGYAYgBiADkANABiADQAYwBlAGIAYgBhAGUAYgAzAGQAYwAuAFAAcgBvAHAAZQByAHQAaQBl
-AHMALgBSAGUAcwBvAHUAcgBjAGUAcwAAAI8YNsqAmXVGhXOEscUhp1oABCABAQgDIAABBSABARER
-BCABAQ4FIAEBEWEUBwkSPRJBEkUSPRJBHQ4IHRJJEkkEIAAScQQgABJBBCAAEnUHAAESfRGAgQgg
-AhKAhQ4SfQUAAR0ODgUgABKAkQMgAA4FIAARgIkGIAESSR0cBSABEkEIByACHRJJDg4EIAEcCAUg
-ABKAmQUgABKAnQYgARKAoRwEAAECDgQgAQEcBSAAEoCtByACAQ4SgK0It3pcVhk04IkIiYRdzYCA
-zJEEAAAAAAQBAAAAAwYSWQMGEl0DBhIQAgYIAwYRFAQAABJZBAAAEl0FAAEBEl0EAAASEAMAAAEE
-CAASWQQIABJdBAgAEhAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEA
-AgAAAAAAKAEAI1NUXzc4OWI4MjMxODcwZDRhZmZiYjk0YjRjZWJiYWViM2RjAAAFAQAAAAAWAQAR
-Q29weXJpZ2h0IEAgIDIwMjMAAEkBABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuNwEAVA4URnJh
-bWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43ALQAAADOyu++AQAAAJEAAABsU3lz
-dGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwg
-Q3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5S
-ZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAAUEFEUEFEULQAAABkMgAAAAAA
-AAAAAAB+MgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcDIAAAAAAAAAAAAAAABfQ29yRGxsTWFp
-bgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AABw0CIAAAEoFAAACm8VAAAKJgIoFgAACm8XAAAKcjsAAHBvGAAACm8ZAAAKbxoAAAooGwAAChMF
+FhMGK0MRBREGmnMcAAAKDAdvHQAAChmNFQAAASUWCG8eAAAKoiUXCG8fAAAKoiUYCG8gAAAKjCIA
+AAGibyEAAAomEQYXWBMGEQYRBY5pMrUGbxEAAAoWbyIAAApyZwAAcHKZAABwbyMAAApzEAAACg0J
+bxEAAApvEgAAChMEEQRvEwAACnK5AABw0B4AAAEoFAAACm8VAAAKJhMHFhMGKzARBxEGmhMIEQRv
+HQAACheNFQAAASUWEQgWbyQAAApvGgAACqJvIQAACiYRBhdYEwYRBhEHjmkyyAIoFgAACm8XAAAK
+cssAAHBvGAAACgIoFgAACm8XAAAKcusAAHBvGAAACm8ZAAAKbxoAAAooJQAACowqAAABbyYAAAoC
+KBYAAApvFwAACnIJAQBwbxgAAAoJbyYAAAoCKBYAAAoWbycAAAoqHgIoKAAACioeAigpAAAKKq5+
+AQAABC0eciUBAHDQAwAAAigUAAAKbyoAAApzKwAACoABAAAEfgEAAAQqGn4CAAAEKh4CgAIAAAQq
+Gn4DAAAEKh4CKCwAAAoqLnMIAAAGgAMAAAQqAEJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAA
+AAUAbAAAAIwEAAAjfgAA+AQAAHgGAAAjU3RyaW5ncwAAAABwCwAAmAEAACNVUwAIDQAAEAAAACNH
+VUlEAAAAGA0AAMgBAAAjQmxvYgAAAAAAAAACAAABVx2iAQkDAAAA+gEzABYAAAEAAAArAAAABQAA
+AAYAAAAJAAAAAQAAACwAAAACAAAAEAAAAAEAAAACAAAAAwAAAAQAAAABAAAABQAAAAEAAAABAAAA
+AADZAwEAAAAAAAYAfwIPBQYADgMPBQYAywH8BA8AgwUAAAYA+AFqBAYAYgJqBAYAQwJqBAYA9QJq
+BAYAnwJqBAYAuAJqBAYADwJqBAYAKgJGAwoA0wKIAwoASgGIAw4ANAY7AA4AiAA7AAYAtwQKAA4A
+VwY7AAYAEQQKBAYArgH8BAYAJgYKBAYA3wQvBQYAwARVBBIAfgHDAxIA3wHDAxIAZgFABAYAkwEP
+BQ4AfAQ7AA4AkAQ7AAYAYgMKBAYAFQEKBAYAmwAKBA4ANQQ7AAYA2gAKBAoAsQOIAxYA0AX1ABYA
+kgD1AAYAbAYKAA4ApQQ7AAYAzAQKAAYAvwAKAAYAIgQKBAYAYwZqBAAAAAABAAAAAAABAAEAAQAQ
+ACoEUAA5AAEAAQAAABAANgWSBVUAAQADAAABEADjBZIFaQADAAcAAwEAAAgGAABNAAQACgARABYE
+ywARADoBzwARAHgA0wAGBjMA1wBWgPgF2gBWgBoB2gBQIAAAAACGADAEBgABACkiAAAAAIYY7wQG
+AAEAMSIAAAAAgxjvBAYAAQA5IgAAAACTCNsE3gABAGUiAAAAAJMIIgHjAAEAbCIAAAAAkwguAegA
+AQB0IgAAAACWCDwG7gACAHsiAAAAAIYY7wQGAAIAgyIAAAAAkRj1BPMAAgAAAAEAQAMJAO8EAQAR
+AO8EBgAZAO8ECgApAO8EEAAxAO8EEAA5AO8EEABBAO8EEABJAO8EEABRAO8EEABZAO8EEABhAO8E
+EABpAO8EBgChAO8EBgDJAO8EFQDZAO8EBgB5AO8EBgB5AMEFMADhAHQANQCBAOwFOgD5AK0APwDp
+AHQARwBxAAAGUAAZAcwFVgAhAQEEXAApASwDYwCpAGADZwAxAdoFawCJAO8EEACBAB0GcQBBAc0A
+ZwBBAcQAZwBBAeMAdwA5AXQAfQDhAAEEhACBAC0GigCRAAEEkgBJARYGlwApATYDnAAZAUgGAQBx
+AO8EBgCpAO8EBgD5AF8GoQCxAO8EpwDRAO8EBgAIABQAwQAIABgAxgApAHMALgEuAAsABgEuABMA
+DwEuABsALgEuACMANwEuACsAYAEuADMAYAEuADsAYAEuAEMANwEuAEsAZgEuAFMAYAEuAFsAfQFD
+AGMAxgBJAHMALgFhAHsAxgBjAGsAxgAbAAMAAQAEAAMAAADfBPcAAABCAfwAAABABgEBAgAEAAMA
+AgAFAAUAAQAGAAUAAgAHAAcABIAAAAEAAABEIURqAAAAAAAAUAAAAAQAAAAAAAAAAAAAAK8ARwAA
+AAAAEAAAAAAAAAAAAAAAuABpAwAAAAAEAAAAAAAAAAAAAACvADsAAAAAAAQAAAAAAAAAAAAAAK8A
+CgQAAAAAEAAAAAAAAAAAAAAAuAAUAAAAAAAAAAAAAQAAAEAFAAAFAAIAAAAAAAA8TW9kdWxlPgBT
+eXN0ZW0uSU8ATWljcm9zb2Z0LlNxbFNlcnZlci5NYW5hZ2VkRFRTAHZhbHVlX18AU3lzdGVtLkRh
+dGEAbXNjb3JsaWIAU1RfNzg5YjgyMzE4NzBkNGFmZmJiOTRiNGNlYmJhZWIzZGMAQWRkAGRlZmF1
+bHRJbnN0YW5jZQBEYXRhVGFibGUAVmFyaWFibGUAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZy
+b21IYW5kbGUARmlsZQBnZXRfTmFtZQBnZXRfRnVsbE5hbWUARGF0ZVRpbWUAZ2V0X0xhc3RXcml0
+ZVRpbWUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUnVudGltZQBUeXBlAEZhaWx1cmUAZ2V0X0N1
+bHR1cmUAc2V0X0N1bHR1cmUAcmVzb3VyY2VDdWx0dXJlAFZTVEFSVFNjcmlwdE9iamVjdE1vZGVs
+QmFzZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxl
+ckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2Fi
+bGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1
+dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFz
+c2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRl
+AENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRl
+AEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQb2ludEF0dHJp
+YnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1
+dGUAZ2V0X1ZhbHVlAHNldF9WYWx1ZQB2YWx1ZQBTeXN0ZW0uUnVudGltZS5WZXJzaW9uaW5nAFRv
+U3RyaW5nAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuU2NyaXB0VGFzawBNaWNyb3NvZnQuU3FsU2VydmVy
+LkR0cy5UYXNrcy5TY3JpcHRUYXNrAFNjcmlwdE9iamVjdE1vZGVsAFN5c3RlbS5Db21wb25lbnRN
+b2RlbABTVF83ODliODIzMTg3MGQ0YWZmYmI5NGI0Y2ViYmFlYjNkYy5kbGwAZ2V0X0l0ZW0AU3lz
+dGVtAEVudW0AcmVzb3VyY2VNYW4AQm9vbGVhbgBTY3JpcHRNYWluAERhdGFDb2x1bW4AU3lzdGVt
+LkNvbmZpZ3VyYXRpb24AU3lzdGVtLkdsb2JhbGl6YXRpb24AU3lzdGVtLlJlZmxlY3Rpb24ARGF0
+YVRhYmxlQ29sbGVjdGlvbgBEYXRhQ29sdW1uQ29sbGVjdGlvbgBEYXRhUm93Q29sbGVjdGlvbgBG
+aWxlSW5mbwBDdWx0dXJlSW5mbwBGaWxlU3lzdGVtSW5mbwBnZXRfUmVzb3VyY2VNYW5hZ2VyAC5j
+dG9yAC5jY3RvcgBTeXN0ZW0uRGlhZ25vc3RpY3MAU3lzdGVtLlJ1bnRpbWUuQ29tcGlsZXJTZXJ2
+aWNlcwBTeXN0ZW0uUmVzb3VyY2VzAFNUXzc4OWI4MjMxODcwZDRhZmZiYjk0YjRjZWJiYWViM2Rj
+LlByb3BlcnRpZXMuUmVzb3VyY2VzLnJlc291cmNlcwBEZWJ1Z2dpbmdNb2RlcwBTVF83ODliODIz
+MTg3MGQ0YWZmYmI5NGI0Y2ViYmFlYjNkYy5Qcm9wZXJ0aWVzAGdldF9UYWJsZXMAZ2V0X1Zhcmlh
+YmxlcwBHZXRGaWxlcwBTZXR0aW5ncwBnZXRfQ29sdW1ucwBTdWNjZXNzAGdldF9EdHMAU2NyaXB0
+UmVzdWx0cwBFeGlzdHMAZ2V0X1Jvd3MAT2JqZWN0AFNlbGVjdABEYXRhU2V0AGdldF9EZWZhdWx0
+AHNldF9UYXNrUmVzdWx0AERhdGFSb3cAZ2V0X0Fzc2VtYmx5AERpcmVjdG9yeQAAAAARRgBpAGwA
+ZQBQAGEAdABoAAARRgBpAGwAZQBOAGEAbQBlAAAVTABhAHMAdABVAHAAZABhAHQAZQAAKyQAUABy
+AG8AagBlAGMAdAA6ADoAcwBvAHUAcgBjAGUAXwBmAGkAbABlAAAxRgBpAGwAZQBOAGEAbQBlACAA
+bABpAGsAZQAgACcAdABlAHMAdAAuAGMAcwB2ACcAAR9MAGEAcwB0AFUAcABkAGEAdABlACAARABF
+AFMAQwAAEWYAaQBsAGUAUABhAHQAaAAAH1UAcwBlAHIAOgA6AGYAaQBsAGUARQB4AGkAcwB0AAAd
+VQBzAGUAcgA6ADoAZgBpAGwAZQBQAGEAdABoAAAbVQBzAGUAcgA6ADoAZABhAHQAYQBzAGUAdAAA
+cVMAVABfADcAOAA5AGIAOAAyADMAMQA4ADcAMABkADQAYQBmAGYAYgBiADkANABiADQAYwBlAGIA
+YgBhAGUAYgAzAGQAYwAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUAcgBjAGUAcwAA
+AEj9VVg0gAxGsDMbxiGxfpUABCABAQgDIAABBSABARERBCABAQ4FIAEBEWEUBwkSPRJBEkUSPRJB
+HQ4IHRJJEkkEIAAScQQgABJBBCAAEnUHAAESfRGAgQggAhKAhQ4SfQUgABKAjQUgABKAkQYgARKA
+lRwDIAAcAyAADgUAAR0ODgUgABKAnQUgABGAiQYgARJJHRwFIAESQQgHIAIdEkkODgQgARwIBAAB
+Ag4EIAEBHAUgABKArQcgAgEOEoCtCLd6XFYZNOCJCImEXc2AgMyRBAAAAAAEAQAAAAMGElkDBhJd
+AwYSEAIGCAMGERQEAAASWQQAABJdBQABARJdBAAAEhADAAABBAgAElkECAASXQQIABIQCAEACAAA
+AAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTVF83ODliODIz
+MTg3MGQ0YWZmYmI5NGI0Y2ViYmFlYjNkYwAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDIzAABJ
+AQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5O
+RVQgRnJhbWV3b3JrIDQuNwC0AAAAzsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3Vy
+Y2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+bGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNv
+dXJjZVNldAIAAAAAAAAAAAAAAFBBRFBBRFC0AAAAUDIAAAAAAAAAAAAAajIAAAAgAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAFwyAAAAAAAAAAAAAAAAX0NvckRsbE1haW4AbXNjb3JlZS5kbGwAAAAAAP8l
+ACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1918,14 +1851,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
 SAAAAFhAAAAaBAAAAAAAAAAAAAAaBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
-AAAAvQTv/gAAAQAAAAEANWY2IQAAAQA1ZjYhPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAAAvQTv/gAAAQAAAAEARGpEIQAAAQBEakQhPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
 AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
 AAAAAAAAALAEegMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAVgMAAAEAMAAwADAA
 MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
 AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
 AABTAFQAXwA3ADgAOQBiADgAMgAzADEAOAA3ADAAZAA0AGEAZgBmAGIAYgA5ADQAYgA0AGMAZQBi
 AGIAYQBlAGIAMwBkAGMAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
-OAA1ADAAMgAuADIANgAxADYANQAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
+OAA1ADEANgAuADIANwAyADAANAAAAAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABT
 AFQAXwA3ADgAOQBiADgAMgAzADEAOAA3ADAAZAA0AGEAZgBmAGIAYgA5ADQAYgA0AGMAZQBiAGIA
 YQBlAGIAMwBkAGMALgBkAGwAbAAAAEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAA
 AEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAgACAAMgAwADIAMwAAACoAAQABAEwAZQBnAGEAbABUAHIA
@@ -1934,15 +1867,15 @@ AG0AZQAAAFMAVABfADcAOAA5AGIAOAAyADMAMQA4ADcAMABkADQAYQBmAGYAYgBiADkANABiADQA
 YwBlAGIAYgBhAGUAYgAzAGQAYwAuAGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBl
 AAAAAABTAFQAXwA3ADgAOQBiADgAMgAzADEAOAA3ADAAZAA0AGEAZgBmAGIAYgA5ADQAYgA0AGMA
 ZQBiAGIAYQBlAGIAMwBkAGMAAABCAA8AAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAx
-AC4AMAAuADgANQAwADIALgAyADYAMQA2ADUAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
-ZQByAHMAaQBvAG4AAAAxAC4AMAAuADgANQAwADIALgAyADYAMQA2ADUAAAAAAAAAAAAAAAAAAAAA
+AC4AMAAuADgANQAxADYALgAyADcAMgAwADQAAAAAAEYADwABAEEAcwBzAGUAbQBiAGwAeQAgAFYA
+ZQByAHMAaQBvAG4AAAAxAC4AMAAuADgANQAxADYALgAyADcAMgAwADQAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAkDIAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAfDIAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1961,7 +1894,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{5CFF98ED-4577-4F63-A18E-F76FD51A9C01}"
-      DTS:From="Package\Tarea Script"
+      DTS:From="Package\Validate file exist"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\Contenedor de bucles Foreach" />
@@ -1980,11 +1913,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="169.6,41.6"
-          Id="Package\Contenedor de bucles Foreach\Tarea Ejecutar SQL"
+          Id="Package\Contenedor de bucles Foreach\CLEAN USERS_TEST"
           TopLeft="69.1666464962902,94.1999982100726" />
         <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\Contenedor de bucles Foreach\Tarea Flujo de datos"
+          Size="137.6,41.6"
+          Id="Package\Contenedor de bucles Foreach\LOAD DATA"
           TopLeft="74.9999795109043,188.66666421983" />
         <NodeLayout
           Size="135.2,41.6"
@@ -1992,7 +1925,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="19.9999825159716,14.1999986439944" />
         <NodeLayout
           Size="201.6,41.6"
-          Id="Package\Contenedor de bucles Foreach\Tarea Sistema de archivos"
+          Id="Package\Contenedor de bucles Foreach\MOVE FILE PROCESSED"
           TopLeft="54.1666473158541,287.06666429215" />
         <EdgeLayout
           Id="Package\Contenedor de bucles Foreach.PrecedenceConstraints[Constraint]"
@@ -2030,18 +1963,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Contenedor de bucles Foreach.PrecedenceConstraints[Constraint 1]"
-          TopLeft="158.083313003597,135.799998210073">
+          TopLeft="153.96664649629,135.799998210073">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,52.8666660097573"
+              EndConnector="-10.1666669853859,52.8666660097574"
               Start="0,0"
-              End="0,45.3666660097573">
+              End="-10.1666669853859,45.3666660097574">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45.3666660097573" />
+                    End="0,22.4333330048787" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.4333330048787"
+                    Point2="0,26.4333330048787"
+                    Point3="-4,26.4333330048787" />
+                  <mssgle:LineSegment
+                    End="-6.16666698538589,26.4333330048787" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-6.16666698538589,26.4333330048787"
+                    Point2="-10.1666669853859,26.4333330048787"
+                    Point3="-10.1666669853859,30.4333330048787" />
+                  <mssgle:LineSegment
+                    End="-10.1666669853859,45.3666660097574" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2052,18 +1997,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Contenedor de bucles Foreach.PrecedenceConstraints[Constraint 2]"
-          TopLeft="158.383313413379,230.26666421983">
+          TopLeft="143.799979510904,230.26666421983">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,56.8000000723203"
+              EndConnector="11.1666678049498,56.80000007232"
               Start="0,0"
-              End="0,49.3000000723203">
+              End="11.1666678049498,49.30000007232">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.3000000723203" />
+                    End="0,24.40000003616" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.40000003616"
+                    Point2="0,28.40000003616"
+                    Point3="4,28.40000003616" />
+                  <mssgle:LineSegment
+                    End="7.16666780494978,28.40000003616" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.16666780494978,28.40000003616"
+                    Point2="11.1666678049498,28.40000003616"
+                    Point3="11.1666678049498,32.40000003616" />
+                  <mssgle:LineSegment
+                    End="11.1666678049498,49.30000007232" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2081,7 +2038,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="299.999983608724,168.133332164155" />
         <NodeLayout
           Size="135.2,41.6"
-          Id="Package\Tarea Script"
+          Id="Package\Validate file exist"
           TopLeft="324.999982242784,64.9999995479981" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
@@ -2089,9 +2046,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="75.8000013659397,61.5333326161571"
+              EndConnector="75.80000136594,61.5333326161569"
               Start="0,0"
-              End="75.8000013659397,54.0333326161571">
+              End="75.80000136594,54.0333326161569">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -2102,13 +2059,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                     Point2="0,30.7666663080785"
                     Point3="4,30.7666663080785" />
                   <mssgle:LineSegment
-                    End="71.8000013659397,30.7666663080785" />
+                    End="71.80000136594,30.7666663080785" />
                   <mssgle:CubicBezierSegment
-                    Point1="71.8000013659397,30.7666663080785"
-                    Point2="75.8000013659397,30.7666663080785"
-                    Point3="75.8000013659397,34.7666663080785" />
+                    Point1="71.80000136594,30.7666663080785"
+                    Point2="75.80000136594,30.7666663080785"
+                    Point3="75.80000136594,34.7666663080785" />
                   <mssgle:LineSegment
-                    End="75.8000013659397,54.0333326161571" />
+                    End="75.80000136594,54.0333326161569" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2121,32 +2078,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\Contenedor de bucles Foreach\Tarea Flujo de datos">
+    design-time-name="Package\Contenedor de bucles Foreach\LOAD DATA">
     <LayoutInfo>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="188.8,41.6"
-          Id="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Origen de archivo plano"
+          Size="192.8,41.6"
+          Id="Package\Contenedor de bucles Foreach\LOAD DATA\SOURCE ORIGIN DATA"
           TopLeft="67.4999963119628,13.8666665702396" />
         <NodeLayout
           Size="175.2,41.6"
-          Id="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB"
+          Id="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY"
           TopLeft="74.9999959021809,247.866664943033" />
         <EdgeLayout
-          Id="Package\Contenedor de bucles Foreach\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="162.249996107072,55.8666665702396">
+          Id="Package\Contenedor de bucles Foreach\LOAD DATA.Paths[Salida de origen de archivo plano]"
+          TopLeft="162.249996107072,55.4666665702396">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,191.999998372793"
+              EndConnector="0,192.399998372793"
               Start="0,0"
-              End="0,184.499998372793">
+              End="0,184.899998372793">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,184.499998372793" />
+                    End="0,184.899998372793" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2159,7 +2116,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Contenedor de bucles Foreach\Tarea Flujo de datos\Destino de OLE DB">
+    design-time-name="Package\Contenedor de bucles Foreach\LOAD DATA\DATA DESTINY">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
